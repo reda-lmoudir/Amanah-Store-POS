@@ -55,6 +55,9 @@
     "zod-validation-error": "^3.4.0"
   },
   "dependencies": {
-    "expo-camera": "57.0.4"
+    "expo-camera": "57.0.4",
+    "expo": "~57.0.21",
+    "react": "19.2.3",
+    "react-native": "0.86.3"
   }
 }
