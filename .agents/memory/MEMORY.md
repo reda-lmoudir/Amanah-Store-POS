@@ -1,0 +1,1 @@
+- [Expo camera versioning](expo-camera-version.md) — use the latest mature SDK-compatible camera patch when firewall release age rejects a newly published one.

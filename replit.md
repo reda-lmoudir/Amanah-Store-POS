@@ -1,6 +1,6 @@
-# [Project name]
+# Amanah Store POS
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+Arabic RTL mobile point-of-sale app for grocery stores, with local product, cart, invoice, and barcode workflows.
 
 ## Run & Operate
 
@@ -22,23 +22,30 @@ _Replace the heading above with the project's name, and this line with one sente
 
 ## Where things live
 
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
+- `artifacts/amanah-store-pos/app/(tabs)/index.tsx` — main mobile experience and local store state
+- `artifacts/amanah-store-pos/constants/colors.ts` — Amanah green theme tokens
+- `artifacts/amanah-store-pos/assets/images/` — app icon and product imagery
+- `artifacts/api-server` — shared API scaffold, currently not required by the first local-first mobile build
 
 ## Architecture decisions
 
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
+- The first mobile build is local-first and uses AsyncStorage for products and invoices so the POS remains usable without an account or network.
+- The product, cart, invoice, and scanner surfaces live together to keep the first cashier workflow fast and consistent.
+- Barcode scanning uses the native Expo camera when running on a device; the web preview provides a guided fallback.
 
 ## Product
 
-_Describe the high-level user-facing capabilities of this app once they exist._
+- Cashiers can browse Arabic grocery products, filter by category, sell by piece/kilogram/gram, and add items to a cart.
+- Checkout supports customer names, paid or credit status, invoice history, local product CRUD, and barcode recognition.
 
 ## User preferences
 
-_Populate as you build — explicit user instructions worth remembering across sessions._
+- Interface language is Arabic with RTL layout and English numerals.
+- Currency defaults to Moroccan dirham (`د.م`).
 
 ## Gotchas
 
-_Populate as you build — sharp edges, "always run X before Y" rules._
+- Expo Go provides the native camera flow; web preview cannot access the same native barcode scanner and exposes demo scan actions instead.
 
 ## Pointers
 

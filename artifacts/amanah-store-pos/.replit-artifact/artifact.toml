@@ -1,0 +1,24 @@
+kind = "mobile"
+previewPath = "/amanah-store-pos/"
+title = "Amanah Store POS"
+description = "Arabic RTL mobile POS app for Amanah Store, with product sales, quantity and weight-based pricing, cart checkout, invoices, inventory management, and barcode scanning."
+version = "1.0.0"
+id = "artifacts/amanah-store-pos"
+router = "expo-domain"
+
+[[services]]
+name = "expo"
+ensurePreviewReachable = "/status"
+paths = [ "/amanah-store-pos/" ]
+localPort = 23658
+
+[services.development]
+run = "pnpm --filter @workspace/amanah-store-pos run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/amanah-store-pos", "run", "build" ]
+run = [ "pnpm", "--filter", "@workspace/amanah-store-pos", "run", "serve" ]
+
+[services.env]
+PORT = "23658"
+BASE_PATH = "/amanah-store-pos/"
