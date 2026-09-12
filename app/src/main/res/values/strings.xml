@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Amanah Store POS</string>
+    <string name="store_subtitle">متجر البقالة والمواد الغذائية</string>
+    <string name="search_placeholder">ابحث عن منتج بالاسم أو الباركود...</string>
+    <string name="currency_symbol">د.م</string>
+    <string name="tab_sales">الرئيسية</string>
+    <string name="tab_products">المنتجات</string>
+    <string name="tab_invoices">الفواتير</string>
+    <string name="scan_barcode">مسح الباركود</string>
+    <string name="cart_title">سلة المشتريات</string>
+    <string name="empty_cart">السلة فارغة حالياً</string>
+    <string name="checkout">حفظ وإضافة إلى صفحة الفواتير</string>
+    <string name="customer_name">اسم صاحب الطلب / الزبون</string>
+    <string name="payment_status">حالة الدفع</string>
+    <string name="payment_paid">مدفوع</string>
+    <string name="payment_credit">كريدي / دين</string>
+    <string name="add_product">إضافة منتج جديد</string>
+    <string name="edit_product">تعديل المنتج</string>
+    <string name="delete_product">حذف المنتج</string>
+    <string name="unit_piece">بالقطعة</string>
+    <string name="unit_kg">بالكيلوغرام</string>
+    <string name="unit_g">بالغرام</string>
+</resources>

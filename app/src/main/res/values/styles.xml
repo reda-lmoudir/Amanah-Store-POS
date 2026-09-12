@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.AmanahStorePOS" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#147A3D</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+    </style>
+</resources>

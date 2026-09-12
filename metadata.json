@@ -1,0 +1,6 @@
+{
+  "name": "Amanah Store POS",
+  "description": "Arabic RTL POS & Store Management app with barcode scanning, product catalog, weight/piece pricing, and invoice tracking",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

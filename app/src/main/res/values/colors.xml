@@ -1,0 +1,11 @@
+<resources>
+    <color name="primary_green">#147A3D</color>
+    <color name="primary_dark">#0F592D</color>
+    <color name="accent_green">#18B957</color>
+    <color name="background_light">#F5F8F6</color>
+    <color name="surface_card">#FFFFFF</color>
+    <color name="text_primary">#10251B</color>
+    <color name="text_secondary">#6E7F75</color>
+    <color name="danger_red">#E53935</color>
+    <color name="warning_amber">#F59E0B</color>
+</resources>
